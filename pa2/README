@@ -1,0 +1,25 @@
+MPS README 2021-11-20
+
+NAME
+mps -- find a maximum planar subset
+
+SYNOPSIS
+mps <input_file> <output_file>
+
+DESCRIPTION
+This program computes the number of chords in the maximum planar subset in a circle of n chords, and reports the details of each chords.
+
+COMPILATION
+To compile, simply `make` at the root directory.
+
+DIRECTORY
+src/main.cpp
+bin/mps
+doc/report.pdf
+makefile
+README
+
+AUTHOR
+HsuanYu CHOU
+
+MPS README 2021-11-20

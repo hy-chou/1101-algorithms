@@ -1,0 +1,38 @@
+This is README file for Algorithm PA#1
+Author: HsuanYu CHOU
+Date: 2021-10-23
+=====
+SYNOPSIS:
+
+NTU_sort -[IS|MS|QS|HS] <input_file_name> <output_file_name>
+
+# This program supports four different sorting methods: insertion sort, merge sort, quicksort, and heapsort.
+
+DIRECTORY:
+
+bin/ executable binary
+doc/ reports
+lib/ library
+src/ source C++ codes
+======
+HOW TO CIMPILE:
+
+    make
+
+======
+HOW TO RUN:
+
+    ./bin/NTU_sort -[IS|MS|QS|HS] <input_file_name> <output_file_name>
+
+    For example,
+    under hychou_pa1/
+    ./bin/NTU_sort -HS inputs/1000000.case1.in outputs/1000000.case1.out
+
+======
+HOW TO VERIFY RESULT
+
+    diff <output_file> <answer_file>
+
+    For example,
+    under hychou_pa1/
+    diff outputs/1000000.case1.out inputs/1000000.case2.in

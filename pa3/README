@@ -1,0 +1,27 @@
+CB README 2022-01-14
+
+NAME
+cb -- a solver for cycle breaking problems
+
+SYNOPSIS
+cb <input_file> <output_file>
+
+DESCRIPTION
+This program finds the total weight of removed edges to make the input graph acyclic, followed by a list of these removed edges and their weights.
+
+COMPILATION
+To compile, simply `make` at the root directory.
+
+DIRECTORY
+src/main.cpp
+cyclebreaker.cpp
+cyclebreaker.h
+bin/cb
+doc/report.pdf
+makefile
+README
+
+AUTHOR
+HsuanYu CHOU
+
+CB README 2022-01-14
